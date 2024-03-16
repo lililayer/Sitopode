@@ -1,0 +1,56 @@
+
+body {
+    margin:0px;
+    background: #0f0f0f;
+    padding-top: 0px;
+    display:flex;
+  }
+
+#header{
+    position: fixed;
+    height:120px;
+    width: 100%;
+    background:#161616; 
+    text-align: center;
+}
+
+video {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    block-size: 250px;
+    margin-left: 30%;
+}
+#bg_ep1 {
+    text-align: auto;
+    margin-left: 50px;
+}
+div {
+    width: 100%;
+}
+
+.typewriter h1, p, h2 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    margin-left: 50px;
+}
+
+.typewriter h1 {
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+.typewriter h2 {
+    margin-left: 0;
+    text-align: center;
+}
+
+#rightToVideo {
+    margin-top: -280px;
+    margin-left: 530px;
+    margin-right: 20px;
+    white-space: pre-line;
+}
