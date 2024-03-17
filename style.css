@@ -21,15 +21,9 @@ video {
 }
 #ep1 {
     padding-left: 32%;
-    top:300px;
 }
 #bg_ep1 {
-    top:650px;
     padding-left:50px;
-}
-#sorciere {
-    position:absolute;
-    left:50%;
 }
 #rightToVideo {
     margin-top: -280px;
