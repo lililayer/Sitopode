@@ -18,16 +18,28 @@ video {
     padding-top: 50px;
     padding-bottom: 50px;
     block-size: 250px;
-    margin-left: 30%;
+}
+#ep1 {
+    padding-left: 32%;
+    top:300px;
 }
 #bg_ep1 {
-    text-align: auto;
-    margin-left: 50px;
+    top:650px;
+    padding-left:50px;
+}
+#sorciere {
+    position:absolute;
+    left:50%;
+}
+#rightToVideo {
+    margin-top: -280px;
+    margin-left: 530px;
+    margin-right: 20px;
+    white-space: pre-line;
 }
 div {
     width: 100%;
 }
-
 .typewriter h1, p, h2, h3 {
     color: #fff;
     font-family: monospace;
@@ -37,12 +49,10 @@ div {
     letter-spacing: .1em;
     margin-left: 50px;
 }
-
 .typewriter h1 {
     padding-top: 40px;
     font-size: 50px;
 }
-
 .typewriter h2, h3 {
     margin-left: 0;
     text-align: center;
@@ -50,11 +60,4 @@ div {
 .typewriter h2 {
     padding-top: 10px;
     padding-bottom: 100px;
-}
-
-#rightToVideo {
-    margin-top: -280px;
-    margin-left: 530px;
-    margin-right: 20px;
-    white-space: pre-line;
 }
