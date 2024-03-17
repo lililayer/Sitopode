@@ -28,13 +28,13 @@ div {
     width: 100%;
 }
 
-.typewriter h1, p, h2 {
+.typewriter h1, p, h2, h3 {
     color: #fff;
     font-family: monospace;
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    letter-spacing: .15em;
+    letter-spacing: .1em;
     margin-left: 50px;
 }
 
@@ -43,9 +43,13 @@ div {
     font-size: 50px;
 }
 
-.typewriter h2 {
+.typewriter h2, h3 {
     margin-left: 0;
     text-align: center;
+}
+.typewriter h2 {
+    padding-top: 10px;
+    padding-bottom: 100px;
 }
 
 #rightToVideo {
