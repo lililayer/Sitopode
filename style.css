@@ -22,6 +22,9 @@ video {
 #ep1 {
     padding-left: 32%;
 }
+#ep2 {
+    padding-top: 150px;
+}
 #bg_ep1 {
     padding-left:50px;
 }
@@ -44,7 +47,7 @@ div {
     margin-left: 50px;
 }
 .typewriter h1 {
-    padding-top: 40px;
+    padding-top: 20px;
     font-size: 50px;
 }
 .typewriter h2, h3 {
@@ -54,4 +57,14 @@ div {
 .typewriter h2 {
     padding-top: 10px;
     padding-bottom: 100px;
+}
+.typewriter h3 {
+    padding-bottom: 25px;
+}
+img {
+    padding-top : 20px;
+    width: 80%;
+}
+table {
+    text-align: center;
 }
