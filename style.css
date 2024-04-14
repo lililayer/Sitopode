@@ -25,6 +25,9 @@ video {
 #ep2 {
     padding-top: 150px;
 }
+#ep3 {
+    padding-top: 150px;
+}
 #bg_ep1 {
     padding-left:50px;
 }
@@ -37,7 +40,7 @@ video {
 div {
     width: 100%;
 }
-.typewriter h1, p, h2, h3 {
+.typewriter h1, p, h2, h3,a {
     color: #fff;
     font-family: monospace;
     overflow: hidden;
