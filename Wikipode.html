@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitopode</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="typewriter">
+        <div id="header">
+            <h1>Sitopode</h1>
+            <hr/>
+            <a href="index.html">Épisodes</a>
+            <a href="Wikipode.html">Wikipode</a>
+        </div>
+        <div id="corps">
+            <h2>LES LUMIPODES</h2>
+            <h3>Wikipode</h3>
+            <br/>
+            <div class="itemsAndSorts">
+                <div id ="items">
+                    <h4 id="item_sorts">
+                        ITEMS
+                    </h4> <br/>
+                        <h5>item 0 : grimoire ancien</h5>
+                            <p>description : "Ce grimoire te donne un pouvoir passif : attaque simple"</p>
+                            <p>prov : donné au début du jeu (voir cast 0)</p>
+
+                        <h5>item 1 : Biere</h5>
+                            <p>description : "Une choppe de bière..."</p>
+                            <p>prov : Lobulle (voir PNJs) met cet item à disposition dans la taverne</p>
+
+
+                        <h5>item 2 : Champignons</h5>
+                            <p>description : "Ces champottes ont des propriétés médicinales"</p>
+                            <p>prov : Les goblins donnent ça à leur mort</p>
+
+                        <h5>item 3 : Lumicrystal</h5>
+                            <p>description : "Ce crystal a des propriétés médicinales"</p>
+                            <p>prov : Apparaissent dans la région crytal</p>
+
+                        <h5>item 4 : Dragopod_ossements</h5>
+                            <p>description : "Ces os peuvent servir à faire des potions contre les rhumatismes"</p>
+                            <p>prov : Item de mission : aider la sorcière</p>
+
+                        <h5>item 5 : Crystopode_fragment</h5>
+                            <p>description : "Soigne uniquement des maladies liées aux morsures de chaudrons à potions"</p>
+                            <p>prov : Item de mission : soigner Louxoug</p>
+
+                        <h5>item 6 : Squellette de dragopode géant</h5>
+                            <p>description : "Ingrédient de potion : souffle du dragopode"</p>
+                            <p>prov : Le dragopode géant (voir mobs) donne ça à sa mort</p>
+
+                        <h5>item 7 : Grimoire du dragopode</h5>
+                            <p>description : "Débloque le sort "souffle du dragopode""</p>
+                            <p>prov : Item créé par le chaudron (voir casts)</p>
+
+                        <h5>item 8 : Dent de dragopode</h5>
+                            <p>description : "Ingrédient : Potion de dégats"</p>
+                            <p>prov : Les loups donne ça à leur mort</p>
+
+                        <h5>item 9 : Lumifeuille</h5>
+                            <p>description : "Ingrédient : Potion de vitesse (indisponible)"</p>
+                            <p>prov : Apparaissent dans la région forêt</p>
+
+                        <h5>item 10 : Liannes de sang</h5>
+                            <p>description : "Ingrédient : Potion de transformation chauve-souris (indisponible)"</p>
+                            <p>prov : Apparaissent dans la région forêt </p>
+
+                        <h5>item 11 : Agripodes</h5>
+                            <p>description : "Ingrédient : Potion gecko"</p>
+                            <p>prov : Apparaissent dans la région forêt</p>
+                </div>
+                <br/>
+                <div id ="items">
+                    <h4 id="item_sorts">
+                        CASTS
+                    </h4> <br/>
+                        <h5>cast 0 : passif attack</h5>
+                            <p>description : Repousse les enemies autour de lea joueureuse</p>
+                            <p>damages : 10 | radius : 3 | reload : 0.25</p>
+                        <h5>cast 1 : heal</h5>
+                            <p>description : Soigne lea joueureuse</p>
+                            <p>heal : 50 | reload : 0.5</p>
+                        <h5>cast 2 : Dragopode souffle</h5>
+                            <p>description : Attaque large et à moyenne portée</p>
+                            <p>damages : 120 | radius : 3 | long : 10 | reload : 1</p>
+                        <h5>cast 3 : Zone damages</h5>
+                            <p>description : Attaque de zone à longue portée</p>
+                            <p>damages : 120 | radius : 3 | reload : 5</p>
+                        <h5>cast 4 : Gecko</h5>
+                            <p>description : Grimper aux murs</p>
+                            <p>time : 30 | reload : 50</p>
+                        <h5>cast 5 : Chauve-souris</h5>
+                            <p>description : Voler </p>
+                            <p>time : 30 | reload : 50</p>
+                </div>
+                <div id ="items">
+                    <h4 id="item_sorts">
+                        Potions
+                    </h4> <br/>
+                        <h5>Potion 0 : Potion de soins</h5>
+                            <p>description : Soigne immédiatement (voir cast 1)</p>
+                            <p>ingrédient : item 2 / item 3</p>
+                        <h5>Potion 1 : Souffle du dragopode</h5>
+                            <p>description : Grimoire ancien détenant un pouvoir de destruction puissant (voir cast 2)</p>
+                            <p>ingrédient : item 6</p>
+                        <h5>Potion 2 : Potion de dégats</h5>
+                            <p>description : Explose à longue portée (voir cast 3)</p>
+                            <p>ingrédient : item 8</p>
+                        <h5>Potion 3 : Potion gecko</h5>
+                            <p>description : Vous pourrez grimper aux murs (voir cast 4)</p>
+                            <p>ingrédient : item 11</p>
+                        <h5>Potion 4 : Transformation chauve-souris</h5>
+                            <p>description : Vous pourrez voler (voir cast 5)</p>
+                            <p>ingrédient : item 10</p>
+                        
+                </div>
+                <div id ="items">
+                    <h4 id="item_sorts">
+                        Mobs
+                    </h4> <br/>
+                        <h5>DeathGuard :</h5>
+                            <p>description : Garde la sortie du cimetière. Tient passionnement à Soku (voir myth.). Pour sortir du cimetière, vous devez vous faire traquer par ellui, récupérer les trois clefs sur la map, puis revenir à la porte.
+                            </p>
+
+                        <h5>Dragopode : </h5>
+                            <p>description : Vous en tapez un.e, iels seront toustes à vos trousses. 
+                                <br/>loot : item 8 : Dent de dragopode
+                            </p>
+                        <h5>DragopodeGiant : </h5>
+                            <p>
+                                description : Comme un.e dragopode lambda, mais plus grand.
+                                <br/>loot : item 6 : Squellette de dragopode géant
+                            </p>
+                        <h5>ForceMadEntity : </h5>
+                            <p>
+                                description : Iels sont en colère en permanance.
+                            </p>
+                        <h5>GoblinEntity : </h5>
+                            <p>
+                                description : Des créatures particulières qui ne s'occupent que d'elleux-même.
+                                <br/>loot : item 2 : Champignons
+                            </p>
+                        <h5>SheepEntity : </h5>
+                            <p>
+                                description : Celleux-là prenent fuite en cas de danger contrairement aux dragopodes.
+                            </p>
+                        <h5>Crystopode : </h5>
+                            <p>
+                                description : Ces créatures lumineuses sont très rare. Iels sont effrayé.e.s en permanance, même mort.e.s, iels continuent de fuir.
+                                <br/>loot : FragmentCrysopode
+                            </p>
+                        <h5>FragmentCrysopode : </h5>
+                            <p>
+                                description : Crystopode mort qui continue de fuire.
+                                <br/>loot : item 5 : Crystopode_fragment
+                            </p>
+                        <h5>Guard : </h5>
+                            <p>
+                                description : Iels gardent les zones protégées par le tyran. Font partis de la milice.
+                            </p>
+                            
+                </div>
+                <div id ="items">
+                    <h4 id="item_sorts">
+                        PNJs
+                    </h4> <br/>
+                        <h5>PNJ 0 : Lobulle</h5>
+                            <p>description : Tient la taverne, ami.e de la sorcière</p>
+                        <h5>PNJ 1 : Sorciere</h5>
+                            <p>description : Met à disposition de qui-veut sont chaudron dans la région foret. Elle a régulièrement besoin de commis de potions.</p>
+                        <h5>PNJ 2 : Myrandoles</h5>
+                            <p>description : Plante sur-exploitée qui attend le bon moment pour sortir de son esclavage... Elle vit dans la forêt et prend son temps de repos dans la région stalactites.</p>
+                        <h5>PNJ 3 : Repareurdeponts</h5>
+                            <p>description : Vit dans la forêt. Tient un tas de bois dont iel se sert pour réparer ou créer des architectures.</p>
+                        <h5>PNJ 4 : Xougoule</h5>
+                            <p>description : Vit dans le village (région stalactites), iel accueille les nouvellaux arrivant.e.s.</p>
+                        <h5>PNJ 5 : Goulxou</h5>
+                            <p>description : Vit dans le village (région stalactites)</p>
+                        <h5>PNJ 6 : Lougxou</h5>
+                            <p>description : Vit dans le village (région stalactites). Iel est fan des jeux auprès du feu (son préféré est le "lougarou").</p>
+                        <h5>PNJ 7 : Ouxloug</h5>
+                            <p>description : Vit dans le village (région stalactites). Demande de l'aide pour soigner saon copaine malade.</p>
+                        <h5>PNJ 8 : Citopode Guard</h5>
+                            <p>description : Guarde l'entrée de la Citopode par les égouts et le petit pont.</p>
+                        <h5>PNJ 9 : Prisonnier des égouts</h5>
+                            <p>description : ???</p>
+                </div>
+                <div id ="items">
+                    <h4 id="item_sorts">
+                        Maps
+                    </h4> <br/>
+                        <h5>Map 0 : Taverne</h5>
+                            <p>description : C'est l'endroit du début du jeu
+                                <br/> hauteur = 30 <br/> mobs = GoblinEntity <br/> PNJs = Lobulle <br/> SpecialInterraction = LorePanel </p>
+                        <h5>Map 1 : Cimetière</h5>
+                            <p>description : Ce cimetière est l'endroit dans lequel vous vous retrouvez lorsque vous mourrez... Pour revivre vous devez déjouer le gardien et récupérer les trois clefs, suite à quoi la porte s'ouvre.
+                                <br/> hauteur = 30 <br/> mobs = DeathGuard <br/> SpecialInterraction = 3 GuardKeys </p>
+                        <h5>Map 2 : Foret</h5>
+                            <p>description : C'est là que se "cache" la sorcière fugitive. Elle y met sont chaudron à disposition pour faire des potions en tout genres. La foret est aussi truffée d'items et de créatures lumythologiques.
+                                <br/> hauteur = 100 <br/> mobs = Dragopode, DragopodeGiant, SheepEntity, GoblinEntity<br/> PNJs = Sorciere, Myrandoles, Repareurdeponts <br/> SpecialInterraction = Chaudron à potion </p>
+                        <h5>Map 3 : Caverne Crystal</h5>
+                            <p>description : C'est la réserve naturelle en crystal de la grotte-monde
+                                <br/> hauteur = 30 <br/> mobs = Dragopode, Crystopode, FragmentCrysopode </p>
+                        <h5>Map 4 : Region des ombres</h5>
+                            <p>description : Sous le pont de la forêt, il y a une zone hostille. Peu de gens y vont, sans quoi iels se font mangé par des vampires
+                                <br/> hauteur = 70 <br/> mobs = ForceMadEntity </p>
+                        <h5>Map 5 : Stalactites</h5>
+                            <p>description : C'est là que le village en autogestion s'est créé pour se libérer du système politique imposé par le tyran. Sa faune est aussi assez diverse
+                                <br/> hauteur = 60 <br/> mobs = GoblinEntity, Dragopode, SheepEntity, ForceMadEntity<br/> PNJs = Xougoule, Goulxou, Lougxou, Ouxloug, Myrandoles </p>
+                        <h5>Map 6 : Citopode</h5>
+                            <p>description : C'est la cité des lumipodes. Le tyran y vit tout en haut. Au plus bas les classes sociales les plus pauvre, au plus haut la bourgeoisie et le monde
+                                <br/> hauteur = 200 <br/> mobs = Guard <br/> PNJs = Citopode Guard </p>
+                        <h5>Map 7 : Egouts Citopode</h5>
+                            <p>description : Ce sont les égouts de la Citopode. Celleux qui y vivent ont été traumatisés et subissent une ségrégation par le tyran, ce qui les force à se méfier de tout intru dans leur petite zone de "paix"
+                                <br/> hauteur = 20 <br/> mobs = GoblinEntity, ForceMadEntity, Dragopode <br/> PNJs = Prisonnier des égouts </p>
+                        <h5>Map 8 : Lumines</h5>
+                            <p>description : Ce sont les mines du tyran. Elles sont le second accès pour passer la frontière vers le monde exterieur (inconnu/oublié de toustes les lumipodes)
+                                <br/> hauteur = 60 <br/> mobs = Guard, GoblinEntity, ForceMadEntity </p>
+                </div>
+            </div>
+        </div>
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+    </div>
+</body>
+</html>

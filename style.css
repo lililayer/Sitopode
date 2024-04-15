@@ -40,7 +40,7 @@ video {
 div {
     width: 100%;
 }
-.typewriter h1, p, h2, h3,a {
+.typewriter h1, p, h2, h3,a, h4, h5 {
     color: #fff;
     font-family: monospace;
     overflow: hidden;
@@ -57,11 +57,38 @@ div {
     margin-left: 0;
     text-align: center;
 }
+#corps {
+    padding-top: 150px;
+    width:100%;
+}
+#item_sorts {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+#items {
+    text-align: center;
+}
+.itemsAndSorts h5 {
+    font-size: 12px;
+    padding-top: 15px;
+    text-align: left;
+    padding-left: 20%;
+}
+.itemsAndSorts p {
+    font-size: 10px;
+    padding-top: 7px;
+    text-align: left;
+    padding-left: 25%;
+    white-space: pre-line;
+}
 .typewriter h2 {
+    font-size: 25px;
     padding-top: 10px;
     padding-bottom: 100px;
 }
 .typewriter h3 {
+    font-size: 20px;
     padding-bottom: 25px;
 }
 img {
