@@ -83,6 +83,23 @@ div {
     padding-left: 25%;
     white-space: pre-line;
 }
+.Lumithologie p {
+    font-size: 12px;
+    padding-top: 7px;
+    text-align: left;
+    padding-left: 15px;
+    white-space: pre-line;
+}
+.Lumithologie h3 {
+    padding-top: 50px;
+}
+#LDescription {
+    text-align: left;
+    padding-left: 0px;
+}
+#LTitre {
+    padding-bottom: 0px;
+}
 .typewriter h2 {
     font-size: 25px;
     padding-top: 10px;
