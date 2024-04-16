@@ -12,30 +12,15 @@ body {
     width: 100%;
     background:#161616; 
     text-align: center;
+    z-index: 1000;
 }
 
 video {
     padding-top: 50px;
     padding-bottom: 50px;
-    block-size: 250px;
-}
-#ep1 {
-    padding-left: 32%;
-}
-#ep2 {
-    padding-top: 150px;
-}
-#ep3 {
-    padding-top: 150px;
-}
-#bg_ep1 {
-    padding-left:50px;
-}
-#rightToVideo {
-    margin-top: -280px;
-    margin-left: 530px;
-    margin-right: 20px;
-    white-space: pre-line;
+    text-align: center;
+    padding-left:10%;
+    width:80%;
 }
 div {
     width: 100%;
@@ -99,6 +84,9 @@ div {
 }
 #LTitre {
     padding-bottom: 0px;
+}
+#startspace {
+    padding-top: 150px;
 }
 .typewriter h2 {
     font-size: 25px;
