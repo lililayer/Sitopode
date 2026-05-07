@@ -37,6 +37,18 @@ div {
     width: 100%;
 }
 
+.marge {
+margin-left: 5em;
+}
+
+.marge2 {
+margin-left: 9em;
+}
+
+.marge3 {
+margin-left: 13em;
+}
+
 .typewriter h1, p, h2, h3,a, h4, h5 {
     color: #e8e8e8;
     font-family: monospace;
