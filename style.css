@@ -16,15 +16,10 @@ body {
     padding-bottom: 10px;
 }
 
-#linedown{
-    position: fixed;
-    margin-bottom:0px;
-    height:60px;
-    width: 100%;
-    padding-top: 20px;
-    background:#131213; 
-    text-align: center;
-    z-index: 1000;
+footer {
+  background-color: #121212;
+  padding: 20px;
+  text-align: center;
 }
 
 video {
