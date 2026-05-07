@@ -17,9 +17,10 @@ body {
 }
 
 footer {
-  background-color: #121212;
-  padding: 20px;
-  text-align: center;
+    flex-grow: 1;
+    background-color: #121212;
+    padding: 20px;
+    text-align: center;
 }
 
 video {
