@@ -37,18 +37,6 @@ div {
     width: 100%;
 }
 
-#lumiwiki {
-    margin-left:9em;
-}
-
-.lumiwiki h5 {
-    margin-left:13em;
-}
-
-.lumiwiki p {
-    margin-left:9em;
-}
-
 .typewriter h1, p, h2, h3,a, h4, h5 {
     color: #e8e8e8;
     font-family: monospace;
