@@ -37,16 +37,14 @@ div {
     width: 100%;
 }
 
-.marge {
-margin-left: 5em;
+.lumiwiki h5 {
+    margin-left: 13em;
 }
-
-.marge2 {
-margin-left: 9em;
+.lumiwiki h4 {
+    margin-left: 9em;
 }
-
-.marge3 {
-margin-left: 13em;
+.lumiwiki h3 {
+    margin-left: 5em;
 }
 
 .typewriter h1, p, h2, h3,a, h4, h5 {
