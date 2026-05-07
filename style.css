@@ -18,6 +18,7 @@ body {
 
 #linedown{
     position: fixed;
+    margin-bottom:0px;
     height:60px;
     width: 100%;
     padding-top: 20px;
