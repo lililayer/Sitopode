@@ -417,11 +417,11 @@ let ccy = 0;
 function compassUpdate() {
     t = quests[questID].worldTrigger;
     ccx = t.x; //canvas.width
-    if (ccx > camera_x + canvas.width * 0.5 - 20) { ccx = camera_x + canvas.width * 0.5 - 20; }
-    if (ccx < camera_x - canvas.width * 0.5 + 20) { ccx = camera_x - canvas.width * 0.5 + 20; }
+    if (ccx > camera_x + (canvas.width * 0.5 - 20) / camera_zoom) { ccx = camera_x + (canvas.width * 0.5 - 20) / camera_zoom; }
+    if (ccx < camera_x + (-canvas.width * 0.5 + 20) / camera_zoom) { ccx = camera_x + (-canvas.width * 0.5 + 20) / camera_zoom; }
     ccy = t.y; //canvas.height
-    if (ccy > camera_y + canvas.height * 0.5 - 20) { ccy = camera_y + canvas.height * 0.5 - 20; }
-    if (ccy < camera_y - canvas.height * 0.5 + 20) { ccy = camera_y - canvas.height * 0.5 + 20; }
+    if (ccy > camera_y + (canvas.height * 0.5 - 20) / camera_zoom) { ccy = camera_y + (canvas.height * 0.5 - 20) / camera_zoom; }
+    if (ccy < camera_y + (-canvas.height * 0.5 + 20) / camera_zoom) { ccy = camera_y + (-canvas.height * 0.5 + 20) / camera_zoom; }
     compass.x = ccx;
     compass.y = ccy;
 }
