@@ -17,11 +17,13 @@ body {
 }
 
 footer {
+    position:absolute;
     bottom:0px;
     flex-grow: 1;
     background-color: #121212;
     padding: 20px;
     text-align: center;
+    width:100%;
 }
 
 video {
