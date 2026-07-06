@@ -17,6 +17,8 @@ body {
 }
 
 footer {
+    position:fixed;
+    bottom:0px;
     flex-grow: 1;
     background-color: #121212;
     padding: 20px;
