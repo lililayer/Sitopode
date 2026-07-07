@@ -8,7 +8,7 @@ function Load() {
         .then(response => response.json())
         .then(data => {
             // INIT
-            content = "<table style=\"padding-top:50px;\"><tr>"
+            content = "<table style=\"padding-top:50px;display:block;overflow:scroll;\"><tr>"
             // GET ALL EPISODES
             data["episodes"].forEach(episode => 
             {
