@@ -8,12 +8,12 @@ function Load() {
         .then(response => response.json())
         .then(data => {
             // INIT
-            content = "<table style=\"padding-top:50px;display:block;overflow:scroll;\"><tr>"
+            content = "<table style=\"background-color:black;margin-left:20px;margin-right:20px;margin-top:50px;display:block;overflow:scroll;\"><tr>"
             // GET ALL EPISODES
             data["episodes"].forEach(episode => 
             {
                 video_sources.push(episode.path);
-                content += "<td><button type=\"button\" style=\"width:150px;height:150px;background-color:black;\">"
+                content += "<td style=\"padding:5px\"><button type=\"button\" style=\"border-color:#111;width:150px;height:150px;background-color:black;\">"
                 content += "<h4 style=\"text-align:left;padding-bottom:0px;padding-top:5px\">" + episode.tag + "</h4>"
                 content += "<p>" + episode._name + "</p>"
                 content += "</button></td>"
