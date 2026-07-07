@@ -1,0 +1,25 @@
+{
+	"episodes":[
+		{
+			"tag":"Ep1",
+			"_name":"Qui sont les lumipodes ?",
+			"path":"/Resources/EPISODE01.mp4"
+		},
+		{
+			"tag":"Ep2",
+			"_name":"La sorcière",
+			"path":"/Resources/EPISODE02.mp4"
+		},
+		{
+			"tag":"Ep3",
+			"_name":"La manufacture",
+			"path":"/Resources/EPISODE03.mp4"
+		},
+		{
+			"tag":"Ep4",
+			"_name":"Le chaudron",
+			"path":"/Resources/ep04.mp4"
+		}
+	]
+}
+
