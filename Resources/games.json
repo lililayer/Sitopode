@@ -1,0 +1,32 @@
+{
+	"games": [
+		{
+			"title":"Brain-Dead Redemption",
+			"url":"https://lilililayer.itch.io/brain-dead-redemption",
+			"preview":"./Resources/previews/screen_braindead.jpg",
+			"compatibility":"Linux x86-64",
+			"wiki":""
+		},
+		{
+			"title":"The lumi-organ thief got a hangover",
+			"url":"./Resources/jeu03/game.html",
+			"preview":"./Resources/previews/screen_cursedvillage.jpg",
+			"compatibility":"Any Webbrowser",
+			"wiki":""
+		},
+		{
+			"title":"Lumiflash",
+			"url":"https://lilililayer.itch.io/lumiflash-0000",
+			"preview":"./Resources/previews/screen_layrhinte.jpg",
+			"compatibility":"Any Webbrowser supporting WebGL",
+			"wiki":""
+		},
+		{
+			"title":"Lumipodes contre la tyrannie",
+			"url":"https://lilililayer.itch.io/lumipodes-version-test-web",
+			"preview":"./Resources/previews/screen_lumiquestbeta.jpg",
+			"compatibility":"Windows",
+			"wiki":"02Wikipode.html"
+		}
+	]
+}
