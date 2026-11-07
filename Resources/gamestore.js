@@ -70,7 +70,7 @@ function Highlight(game) {
         highlighted.removeChild(child);
     
     let content = "<div id=\"highlight_child\">";
-    content += "<a href = \""+game.url+"\" target=\"_blank\"><h2>"+game.title+"</h2>";
+    content += "<a href = \""+game.url+"\" target=\"_blank\"><h2 style=\"padding-bottom:10px\">"+game.title+"</h2>";
     content += "<img src=\""+game.preview+"\" style=\"width:80%; height:auto;\"/></a>";
     content += "<br/><br/><h4>Compatiblity : "+game.compatibility+"<h4>";
     if (game.wiki != "") {
