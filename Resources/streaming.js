@@ -35,6 +35,11 @@ function Load() {
                     video_player.load();
                 };
             };
+        })
+        .then(() => {
+            video_player.src=video_sources[0];
+            currentVideoIndex = 0;
+            video_player.load();
         });
     return 0;
 }
