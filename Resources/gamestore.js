@@ -2,11 +2,13 @@ const game_list = document.getElementById('store');
 const highlighted = document.getElementById('highlighted');
 games = []
 class GameData {
-    constructor(_title, _url, _preview, _wiki, _compatibility) {
+    constructor(_title, _url, _preview, _release, _wiki, _resume, _compatibility) {
         this.title = _title
         this.url = _url
         this.preview = _preview
+        this.release = _release
         this.wiki = _wiki
+        this.resume = _resume
         this.compatibility = _compatibility
         games.push(this)
     }
@@ -20,7 +22,7 @@ function Load() {
             // GET ALL EPISODES
             data["games"].forEach(game => 
             {
-                new GameData(game.title, game.url, game.preview, game.wiki, game.compatibility)
+                new GameData(game.title, game.url, game.preview, game.release, game.wiki, game.resume, game.compatibility)
             });
         })
         .then(() => {
@@ -72,10 +74,12 @@ function Highlight(game) {
     let content = "<div id=\"highlight_child\">";
     content += "<a href = \""+game.url+"\" target=\"_blank\"><h2 style=\"padding-bottom:10px\">"+game.title+"</h2>";
     content += "<img src=\""+game.preview+"\" style=\"width:80%; height:auto;\"/></a>";
-    content += "<br/><br/><h4>Compatiblity : "+game.compatibility+"<h4>";
+    content += "<br/><br/><p style=\"padding-left:10%; padding-right:5%;text-align:left;\">Released on "+game.release+"</p>"
+    content += "<p style=\"padding-left:10%; padding-right:5%;text-align:left;\">Compatiblity : "+game.compatibility+"</p>";
     if (game.wiki != "") {
-        content += "<a href=\""+game.wiki+"\"><h4>WIKI AVAILABLE</h4></a>"
+        content += "<a href=\""+game.wiki+"\"><p style=\"padding-left:10%; padding-right:5%;text-align:left;\">WIKI AVAILABLE</p></a>"
     }
+    content += "<br/><p style=\"padding-left:15%; padding-right:5%;text-align:left;\">Trailer : "+game.resume+"</p>"
     content += "</div>";
     highlighted.insertAdjacentHTML("beforeend", content);
 }
