@@ -33,14 +33,14 @@ function Load() {
                 const td = document.createElement("td");
                 tr.appendChild(td)
                 td.style.width = "400px"
-                td.style.height = "350px"
+                td.style.height = "250px"
                 td.style.paddingTop = "0px"
 
                 
                 const button = document.createElement("button");
                 td.appendChild(button)
                 button.style.width = "100%";
-                button.style.height = "250px";
+                button.style.height = "100%";
                 button.style.background = "black"
                 button.style.borderColor = "#111"
                 button.type = "button"
