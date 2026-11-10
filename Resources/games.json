@@ -7,6 +7,7 @@
 			"release":"october 30 2026",
 			"compatibility":"Linux x86-64",
 			"wiki":"",
+			"tags":["singleplayer", "horror", "interactive-animation", "zombies"],
 			"resume":"In this interactive animation, you play as a brain-dead person experiencing sleep paralysis."
 		},
 		{
@@ -16,6 +17,7 @@
 			"release":"june 15 2026",
 			"compatibility":"Any Webbrowser",
 			"wiki":"",
+			"tags":["singleplayer", "mystery", "role-play", "aliens"],
 			"resume":"A gay bar, a pretty dumb cop, a kid who practices black magic, and an organ trafficker alien... Will you be able to solve the mystery of this cursed village ?"
 		},
 		{
@@ -25,6 +27,7 @@
 			"release":"september 28 2025",
 			"compatibility":"Any Webbrowser supporting WebGL",
 			"wiki":"",
+			"tags":["singleplayer", "labyrhinte", "puzzle", "lumipodes"],
 			"resume":"This living labtrhinte is watching you."
 		},
 		{
@@ -34,6 +37,7 @@
 			"release":"april 15 2024",
 			"compatibility":"Windows",
 			"wiki":"02Wikipode.html",
+			"tags":["multiplayer", "adventure", "witchcraft", "lumipodes"],
 			"resume":"The game takes place during the time when the tyrant rules over Citopode. You play as the kitchen assistant to the Lumipode witch. Step by step, learn the magic of potions until you can overcome death itself to defeat the tyrant."
 		}
 	]
