@@ -128,6 +128,13 @@ function Highlight(game) {
     if (game.wiki != "") {
         content += "<a href=\""+game.wiki+"\"><p style=\"padding-left:10%; padding-right:5%;text-align:left;\">WIKI AVAILABLE</p></a>"
     }
+    content += "<p style=\"padding-left:10%; padding-right:5%;text-align:left;\">Tags : "
+    let tid = 0
+    game.tags.forEach (tag => {
+        content += tag;
+        if (tid < game.tags.length - 1) {content += ', '}
+        tid++
+    }); content += "</p>"
     content += "<br/><p style=\"padding-left:15%; padding-right:5%;text-align:left;\">Trailer : "+game.resume+"</p>"
     content += "</div>";
     highlighted.insertAdjacentHTML("beforeend", content);
